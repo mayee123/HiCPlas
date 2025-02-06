@@ -1,0 +1,18 @@
+name: MetaCC_env
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - python=3.8.19
+  - bioconda::biopython=1.83
+  - numpy=1.24.4
+  - pandas=2.0.3
+  - statsmodels=0.14.1
+  - scipy=1.10.1
+  - leidenalg=0.9.0
+  - tqdm=4.65.0
+  - typing-extensions=4.5.0
+  - python-igraph
+  - pysam
