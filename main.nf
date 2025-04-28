@@ -56,7 +56,7 @@ workflow {
     //
     // SUBWORKFLOW: Run initialisation tasks
     //
-    samplesheet = Channel.fromPath('samplesheet.csv')
+    samplesheet = Channel.fromPath(params.input)
     //
     // WORKFLOW: Run main workflow
     //

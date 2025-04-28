@@ -6,8 +6,8 @@ process TAXONOMY_REPORT {
 
     output:
 
-    path "bin_tax.tsv", emit: taxonomy_tsv
-
+    path "bin_tax_species.tsv", emit: taxonomy_sp_tsv
+    path "bin_tax_genus.tsv", emit: taxonomy_g_tsv
 
 
     """
@@ -17,7 +17,10 @@ process TAXONOMY_REPORT {
     do
         name=\$(basename \$x .txt)
         line=\$($moduleDir/filter_k2_report.sh --taxa S --per 50 --file \$x | sed -n '2p')
-        echo "\$name\$T\$line" >> bin_tax.tsv
+        echo "\$name\$T\$line" >> bin_tax_species.tsv
+
+        line=\$($moduleDir/filter_k2_report.sh --taxa G --per 50 --file \$x | sed -n '2p')
+        echo "\$name\$T\$line" >> bin_tax_genus.tsv
     done
 
     """

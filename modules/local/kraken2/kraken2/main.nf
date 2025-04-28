@@ -9,7 +9,7 @@ process KRAKEN2_MAIN {
 
     input:
     tuple val(meta), path(reads)
-    path  db
+    path database
 
 
     output:
@@ -25,7 +25,7 @@ process KRAKEN2_MAIN {
 
     """
     kraken2 \\
-        --db $db \\
+        --db $database \\
         --threads $task.cpus \\
         --report ${prefix}.kraken2.report.txt \\
         --use-names \\
