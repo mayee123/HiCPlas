@@ -24,7 +24,7 @@ process runNfCoreMag {
         --skip_prodigal \\
         --skip_binning \\
         --skip_spades \\
-        -c ${workflow.projectDir}/custom_mag.config
+        -c ${workflow.projectDir}/conf/custom_mag.config
 
         
     gunzip results/Assembly/MEGAHIT/MEGAHIT-*.contigs.fa.gz
