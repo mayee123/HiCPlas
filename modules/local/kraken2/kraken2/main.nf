@@ -27,7 +27,7 @@ process KRAKEN2_MAIN {
     kraken2 \\
         --db $database \\
         --threads $task.cpus \\
-        --report ${prefix}.kraken2.report.txt \\
+        --output ${prefix}.kraken2.report.txt \\
         --use-names \\
         $args \\
         $reads
