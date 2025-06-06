@@ -1,0 +1,18 @@
+name: ImputeCC_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fraggenescan=1.31=h031d066_6
+  - hmmer=3.3.2=hdbdd923_4
+  - numpy=1.21.6=py37h976b520_0
+  - pandas=1.3.5=py37he8f5f7f_0
+  - leidenalg=0.8.9=py37hd23a5d3_0
+  - scipy=1.7.3=py37hf2a6cf1_0
+  - igraph=0.9.7=hf5496dd_0
+  - biolib=0.1.9=py_0
+  - biopython=1.79=py37h540881e_2
+  - checkm-genome=1.2.2=pyhdfd78af_1
+  - pip:
+      - networkx==2.6.3
