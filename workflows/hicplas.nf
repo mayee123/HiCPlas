@@ -40,7 +40,7 @@ workflow HICPLAS {
     ch_samplesheet // channel: samplesheet read in from --input
 
     main:
-    /*
+    
     ch_hic=Channel.fromFilePairs(params.hic_read)
     .map {
             id, files ->
@@ -85,22 +85,8 @@ workflow HICPLAS {
     
     BWA_INDEX(ch_assem)    
     BWA_MEM(hic_trimmed, BWA_INDEX.out.index)
-    */
-    ch_assem=Channel
-    .fromPath('/home/myee/scratch/HiCPlas/B314-1_impute/unzip/MEGAHIT-B314-1.contigs.fa').map {
-            fasta ->
-            def meta        = [:]
-                meta.id     = "contig"
-            [meta, fasta] }
-    ch_bam=Channel.fromPath('/home/myee/scratch/HiCPlas/B314-1_impute/bwa/MAP_SORTED.bam').map {
-            fasta ->
-            def meta        = [:]
-                meta.id     = "contig"
-            [meta, fasta] }
-    ch_assem.view()
-    ch_bam.view()
-    METACC_NORM(ch_assem, ch_bam)
-    //METACC_NORM(ch_assem, BWA_MEM.out.bam)
+    
+    METACC_NORM(ch_assem, BWA_MEM.out.bam)
     
 
     if (params.enzyme) {
