@@ -1,0 +1,6 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1645;seqhdr="k141_24107"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="16|Chlorobium_tepidum_TLS|B|56.5|11|1";gc_cont=56.50;transl_table=11;uses_sd=1
+k141_24107	Prodigal_v2.6.3	CDS	1	570	73.7	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.609;conf=100.00;score=73.75;cscore=70.53;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+k141_24107	Prodigal_v2.6.3	CDS	787	1131	34.8	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.632;conf=99.97;score=35.84;cscore=29.95;sscore=5.89;rscore=-0.18;uscore=1.01;tscore=3.98;
+k141_24107	Prodigal_v2.6.3	CDS	1250	1645	43.0	-	0	ID=1_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.631;conf=99.99;score=42.95;cscore=39.73;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;

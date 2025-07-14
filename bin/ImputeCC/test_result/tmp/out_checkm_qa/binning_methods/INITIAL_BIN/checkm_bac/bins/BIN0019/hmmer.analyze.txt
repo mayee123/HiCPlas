@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k141_28367_1         -            452 RmlD_sub_bind        PF04321.12   287   2.4e-05   13.0   0.6   1   1   3.6e-06   3.9e-05   12.4   0.6     3    62   214   296   212   301 0.90 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 adh_short            PF00106.20   167   5.9e-38  120.2   5.7   1   1   5.4e-39   5.9e-38  120.2   5.7     2   163   213   372   212   374 0.91 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 Epimerase            PF01370.16   236   1.3e-09   27.6   0.2   1   1   1.8e-10     2e-09   27.0   0.2     1   123   214   352   214   368 0.81 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 NAD_binding_10       PF13460.1    183   1.5e-05   14.8   3.4   1   1   2.1e-06   2.4e-05   14.2   2.5     1    74   214   305   214   388 0.75 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 KR                   PF08659.5    181   2.6e-25   78.9   2.1   1   1   5.1e-26   5.6e-25   77.8   2.1     2   160   213   368   212   390 0.85 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 NmrA                 PF05368.8    233   0.00015   10.8   0.5   1   1   2.2e-05   0.00024   10.1   0.5     1    57   214   271   214   302 0.82 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 adh_short_C2         PF13561.1    241   2.1e-26   82.9   0.1   1   2    0.0027      0.03    3.8   0.0   150   176   134   158   127   164 0.84 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+k141_28367_1         -            452 adh_short_C2         PF13561.1    241   2.1e-26   82.9   0.1   2   2   1.6e-25   1.8e-24   76.6   0.0     1   236   218   443   218   445 0.95 # 85 # 1440 # 1 # ID=2_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.723
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /tmp/4fe59953-3d40-450c-8389-b68e2622da56
+# Target file:     /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0019/genes.faa
+# Option settings: hmmsearch --domtblout /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0019/hmmer.analyze.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /tmp/4fe59953-3d40-450c-8389-b68e2622da56 /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0019/genes.faa 
+# Current dir:     /project/60006/myee/thesis/hic/sim/brinkman/HiCPlas
+# Date:            Mon Jun  9 09:16:33 2025
+# [ok]

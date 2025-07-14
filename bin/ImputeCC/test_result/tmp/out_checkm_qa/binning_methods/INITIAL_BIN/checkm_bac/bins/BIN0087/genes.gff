@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1279;seqhdr="k141_32651"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="4|Akkermansia_muciniphila_ATCC_BAA_835|B|55.8|11|0";gc_cont=55.80;transl_table=11;uses_sd=0
+k141_32651	Prodigal_v2.6.3	CDS	13	1074	158.7	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.652;conf=100.00;score=158.65;cscore=150.50;sscore=8.16;rscore=1.53;uscore=3.05;tscore=3.58;

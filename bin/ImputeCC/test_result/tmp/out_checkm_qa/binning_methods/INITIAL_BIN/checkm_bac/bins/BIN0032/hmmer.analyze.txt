@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k141_25551_2         -           1014 Plug                 PF07715.10   108   1.5e-18   55.2   1.2   1   1   1.5e-18   4.5e-18   53.6   1.2     5   108    24   148    20   148 0.91 # 671 # 3712 # -1 # ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.383
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /tmp/f7d101cd-b62f-41ef-85f4-5bd18e1fd2b2
+# Target file:     /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0032/genes.faa
+# Option settings: hmmsearch --domtblout /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0032/hmmer.analyze.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /tmp/f7d101cd-b62f-41ef-85f4-5bd18e1fd2b2 /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0032/genes.faa 
+# Current dir:     /project/60006/myee/thesis/hic/sim/brinkman/HiCPlas
+# Date:            Mon Jun  9 09:16:33 2025
+# [ok]

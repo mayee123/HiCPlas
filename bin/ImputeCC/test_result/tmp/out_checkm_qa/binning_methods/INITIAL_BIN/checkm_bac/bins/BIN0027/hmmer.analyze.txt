@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+k141_1495_1          -            388 tRNA-synt_2b         PF00587.20   173   6.9e-32   99.7   0.0   1   1   1.1e-32   9.1e-32   99.3   0.0     2   169    35   199    34   204 0.91 # 493 # 1656 # 1 # ID=2_1;partial=01;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.716
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /tmp/ec978d27-d0bc-4bdd-8ff4-85a29c55c01c
+# Target file:     /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0027/genes.faa
+# Option settings: hmmsearch --domtblout /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0027/hmmer.analyze.txt --noali --notextw -E 0.1 --domE 0.1 --cpu 1 /tmp/ec978d27-d0bc-4bdd-8ff4-85a29c55c01c /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac/bins/BIN0027/genes.faa 
+# Current dir:     /project/60006/myee/thesis/hic/sim/brinkman/HiCPlas
+# Date:            Mon Jun  9 09:16:32 2025
+# [ok]

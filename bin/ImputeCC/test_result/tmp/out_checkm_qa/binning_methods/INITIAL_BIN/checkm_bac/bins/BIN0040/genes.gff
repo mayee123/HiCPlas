@@ -1,0 +1,11 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2651;seqhdr="k141_24165"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+k141_24165	Prodigal_v2.6.3	CDS	2	595	38.8	-	0	ID=1_1;partial=10;start_type=GTG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.527;conf=99.98;score=38.17;cscore=28.84;sscore=9.33;rscore=14.32;uscore=-1.55;tscore=-2.78;
+k141_24165	Prodigal_v2.6.3	CDS	805	2229	155.8	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.559;conf=100.00;score=155.82;cscore=139.11;sscore=16.71;rscore=10.64;uscore=2.49;tscore=3.58;
+k141_24165	Prodigal_v2.6.3	CDS	2343	2651	44.8	+	0	ID=1_3;partial=01;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;gc_cont=0.557;conf=100.00;score=44.82;cscore=42.23;sscore=2.59;rscore=0.50;uscore=-1.49;tscore=3.58;
+# Sequence Data: seqnum=2;seqlen=2362;seqhdr="k141_99"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+k141_99	Prodigal_v2.6.3	CDS	1	579	33.5	+	0	ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.496;conf=99.95;score=33.51;cscore=30.30;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+k141_99	Prodigal_v2.6.3	CDS	576	1634	70.4	+	0	ID=2_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.510;conf=100.00;score=74.66;cscore=66.05;sscore=8.61;rscore=-2.96;uscore=2.54;tscore=4.77;
+k141_99	Prodigal_v2.6.3	CDS	1657	2361	13.7	-	0	ID=2_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.522;conf=95.93;score=13.74;cscore=10.52;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;

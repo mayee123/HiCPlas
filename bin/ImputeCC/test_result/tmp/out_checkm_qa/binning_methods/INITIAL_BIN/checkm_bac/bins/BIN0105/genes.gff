@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1100;seqhdr="k141_24141"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="48|Xylella_fastidiosa_Temecula1|B|51.8|11|1";gc_cont=51.80;transl_table=11;uses_sd=1
+k141_24141	Prodigal_v2.6.3	CDS	1	1098	118.3	+	0	ID=1_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.552;conf=100.00;score=118.30;cscore=116.69;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;

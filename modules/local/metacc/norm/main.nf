@@ -15,6 +15,6 @@ process METACC_NORM {
     script:
     def enzyme_arg = params.enzyme ? "-e ${params.enzyme}" : ''
     """
-    python /MetaCC/MetaCC.py norm ${enzyme_arg} $contigs $bam metacc/ 
+    python /MetaCC/MetaCC.py norm ${enzyme_arg} --min-len 750 $contigs $bam metacc/ 
     """
 }

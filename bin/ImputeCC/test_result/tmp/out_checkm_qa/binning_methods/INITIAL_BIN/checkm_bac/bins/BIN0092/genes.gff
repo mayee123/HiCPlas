@@ -1,0 +1,6 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2729;seqhdr="k141_25561"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="36|Ralstonia_solanacearum_PSI07|B|66.1|11|1";gc_cont=66.10;transl_table=11;uses_sd=1
+k141_25561	Prodigal_v2.6.3	CDS	1	504	84.4	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.623;conf=100.00;score=84.36;cscore=81.14;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
+k141_25561	Prodigal_v2.6.3	CDS	591	2129	215.1	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.668;conf=99.99;score=215.11;cscore=198.63;sscore=16.48;rscore=8.88;uscore=3.06;tscore=4.54;
+k141_25561	Prodigal_v2.6.3	CDS	2163	2729	95.9	+	0	ID=1_3;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.630;conf=100.00;score=96.83;cscore=96.58;sscore=0.25;rscore=-3.31;uscore=-1.90;tscore=4.54;

@@ -1,0 +1,7 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=2338;seqhdr="k141_18453"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="10|Burkholderia_rhizoxinica_HKI_454|B|59.7|11|1";gc_cont=59.70;transl_table=11;uses_sd=1
+k141_18453	Prodigal_v2.6.3	CDS	100	333	-7.1	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.714;conf=53.36;score=0.59;cscore=-4.68;sscore=5.26;rscore=-4.35;uscore=-2.09;tscore=4.48;
+k141_18453	Prodigal_v2.6.3	CDS	333	512	14.5	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.728;conf=96.59;score=14.54;cscore=6.24;sscore=8.30;rscore=7.03;uscore=-2.17;tscore=3.43;
+k141_18453	Prodigal_v2.6.3	CDS	648	1655	118.4	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.692;conf=100.00;score=117.78;cscore=103.28;sscore=14.51;rscore=9.94;uscore=0.38;tscore=4.85;
+k141_18453	Prodigal_v2.6.3	CDS	1877	2149	13.4	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.623;conf=95.64;score=13.44;cscore=15.46;sscore=-2.02;rscore=-4.02;uscore=-2.84;tscore=4.85;

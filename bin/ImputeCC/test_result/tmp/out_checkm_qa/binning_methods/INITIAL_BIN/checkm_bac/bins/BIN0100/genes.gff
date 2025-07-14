@@ -1,0 +1,6 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1673;seqhdr="k141_24132"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="13|Catenulispora_acidiphila_DSM_44928|B|69.8|11|1";gc_cont=69.80;transl_table=11;uses_sd=1
+k141_24132	Prodigal_v2.6.3	CDS	1	921	112.4	-	0	ID=1_1;partial=10;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.707;conf=100.00;score=113.52;cscore=103.28;sscore=10.24;rscore=5.82;uscore=-1.20;tscore=4.54;
+k141_24132	Prodigal_v2.6.3	CDS	940	1605	101.3	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=3-4bp;gc_cont=0.704;conf=100.00;score=107.74;cscore=86.97;sscore=20.77;rscore=14.94;uscore=-5.16;tscore=4.54;
+k141_24132	Prodigal_v2.6.3	CDS	1602	1673	5.2	-	0	ID=1_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.653;conf=76.73;score=5.19;cscore=1.97;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;

@@ -5,44 +5,6 @@ import re
 
 csv.field_size_limit(sys.maxsize)
 
-def run1(file, tax):
-    with open(file) as file:
-       
-        tsv_file = csv.reader(file, delimiter="\t")
-        
-        count=0
-        dict={}
-        for line in tsv_file:
-            size=int(line[3])
-            count+=size
-            if line[0]=="C":
-                if tax=="S":
-                    taxonomy=line[2].split(" (")[0]
-                elif tax=="G":
-                    taxonomy=line[2].split(" (")[0].split(" ")[0]
-                if taxonomy in dict:
-                    dict[taxonomy][0]+=1
-                    dict[taxonomy][1]+=size
-                else:
-                    dict[taxonomy]=[1,size]
-            
-
-        max_key = max(dict, key=dict.get)
-        perc=dict[max_key][1]/count
-        if perc >= 0.1:
-
-        
-            perc=str(round(perc*100,2))+"%"
-            contig=dict[max_key][0]
-            output=(f"{perc}\t{contig}\t{max_key}")
-            subprocess.run(["echo", "-e", output])
-
-
-            
-        print(dict)
-
-
-
 def run(file_path, tax_level):
     count = 0
     taxonomy_stats = {}
@@ -78,10 +40,12 @@ def run(file_path, tax_level):
     percentage = total_size / count
 
     if percentage >= 0.5:
-        formatted_percentage = f"{round(percentage * 100, 2)}%"
         contig_count = taxonomy_stats[max_key][0]
-        output = f"{formatted_percentage}\t{contig_count}\t{max_key}"
-        subprocess.run(["echo", "-e", output])
+        if contig_count > 1:
+            formatted_percentage = f"{round(percentage * 100, 2)}%"
+            
+            output = f"{formatted_percentage}\t{contig_count}\t{max_key}"
+            subprocess.run(["echo", "-e", output])
 
 
 if __name__ == "__main__":
