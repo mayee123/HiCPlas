@@ -1,6 +1,0 @@
-##gff-version  3
-# Sequence Data: seqnum=1;seqlen=2895;seqhdr="k141_56"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="8|Bacteroides_fragilis_NCTC_9343|B|43.2|11|0";gc_cont=43.20;transl_table=11;uses_sd=0
-k141_56	Prodigal_v2.6.3	CDS	2	499	62.3	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.406;conf=100.00;score=62.34;cscore=59.13;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
-k141_56	Prodigal_v2.6.3	CDS	517	2274	278.4	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=TAAAAA;rbs_spacer=6bp;gc_cont=0.448;conf=99.99;score=279.48;cscore=258.90;sscore=20.58;rscore=12.15;uscore=3.21;tscore=4.12;
-k141_56	Prodigal_v2.6.3	CDS	2308	2895	106.0	+	0	ID=1_3;partial=01;start_type=ATG;rbs_motif=TAAA;rbs_spacer=14bp;gc_cont=0.485;conf=100.00;score=106.88;cscore=93.61;sscore=13.28;rscore=5.41;uscore=2.83;tscore=4.12;

@@ -1,5 +1,0 @@
-##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1043;seqhdr="k141_4317"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="26|Methanopyrus_kandleri_AV19|A|61.2|11|0";gc_cont=61.20;transl_table=11;uses_sd=0
-k141_4317	Prodigal_v2.6.3	CDS	3	422	44.8	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.674;conf=100.00;score=44.77;cscore=41.55;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
-k141_4317	Prodigal_v2.6.3	CDS	455	925	62.1	-	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGGGG;rbs_spacer=7bp;gc_cont=0.720;conf=100.00;score=62.15;cscore=47.76;sscore=14.39;rscore=14.32;uscore=-0.60;tscore=0.66;

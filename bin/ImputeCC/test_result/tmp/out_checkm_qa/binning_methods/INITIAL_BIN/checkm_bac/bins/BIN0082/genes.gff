@@ -1,5 +1,0 @@
-##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1274;seqhdr="k141_8527"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="39|Rickettsia_conorii_Malish_7|B|32.4|11|1";gc_cont=32.40;transl_table=11;uses_sd=1
-k141_8527	Prodigal_v2.6.3	CDS	31	1023	128.2	-	0	ID=1_1;partial=00;start_type=TTG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.355;conf=100.00;score=129.46;cscore=131.44;sscore=-1.98;rscore=5.66;uscore=0.73;tscore=-9.61;
-k141_8527	Prodigal_v2.6.3	CDS	1027	1272	22.9	-	0	ID=1_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.337;conf=99.48;score=22.85;cscore=19.63;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;

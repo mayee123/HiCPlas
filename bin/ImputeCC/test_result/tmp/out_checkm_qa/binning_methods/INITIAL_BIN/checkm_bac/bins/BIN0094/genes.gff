@@ -1,4 +1,0 @@
-##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1535;seqhdr="k141_32654"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="19|Erythrobacter_litoralis_HTCC2594|B|63.1|11|1";gc_cont=63.10;transl_table=11;uses_sd=1
-k141_32654	Prodigal_v2.6.3	CDS	298	1533	153.0	+	0	ID=1_1;partial=01;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.659;conf=100.00;score=153.02;cscore=141.38;sscore=11.65;rscore=7.63;uscore=0.38;tscore=3.65;

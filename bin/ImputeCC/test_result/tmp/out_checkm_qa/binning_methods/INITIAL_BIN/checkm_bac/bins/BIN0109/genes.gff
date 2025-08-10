@@ -1,6 +1,0 @@
-##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1091;seqhdr="k141_5724"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="25|Marinobacter_aquaeolei_VT8|B|57.3|11|1";gc_cont=57.30;transl_table=11;uses_sd=1
-k141_5724	Prodigal_v2.6.3	CDS	3	104	11.4	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.559;conf=93.19;score=11.38;cscore=8.16;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
-k141_5724	Prodigal_v2.6.3	CDS	162	845	57.7	+	0	ID=1_2;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.561;conf=100.00;score=58.35;cscore=60.07;sscore=-1.73;rscore=1.44;uscore=3.44;tscore=-7.25;
-k141_5724	Prodigal_v2.6.3	CDS	900	1091	22.0	-	0	ID=1_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.490;conf=99.36;score=21.98;cscore=18.76;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;

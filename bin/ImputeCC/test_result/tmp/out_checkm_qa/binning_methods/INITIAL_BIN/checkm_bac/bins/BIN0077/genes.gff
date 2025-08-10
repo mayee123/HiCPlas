@@ -1,6 +1,0 @@
-##gff-version  3
-# Sequence Data: seqnum=1;seqlen=1390;seqhdr="k141_1448"
-# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="38|Rhodococcus_jostii_RHA1|B|65.0|11|1";gc_cont=65.10;transl_table=11;uses_sd=1
-k141_1448	Prodigal_v2.6.3	CDS	3	212	20.6	+	0	ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.681;conf=99.13;score=20.59;cscore=17.37;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;
-k141_1448	Prodigal_v2.6.3	CDS	304	702	46.6	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.717;conf=100.00;score=46.61;cscore=47.50;sscore=-0.89;rscore=-6.35;uscore=0.97;tscore=4.48;
-k141_1448	Prodigal_v2.6.3	CDS	699	1388	50.6	+	0	ID=1_3;partial=01;start_type=GTG;rbs_motif=None;rbs_spacer=None;gc_cont=0.719;conf=100.00;score=61.73;cscore=64.29;sscore=-2.56;rscore=-6.35;uscore=-3.45;tscore=-3.85;

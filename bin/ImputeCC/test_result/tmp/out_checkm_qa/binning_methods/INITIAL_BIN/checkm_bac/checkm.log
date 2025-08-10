@@ -1,6 +1,0 @@
-[2025-06-09 09:09:23] INFO: CheckM v1.2.2
-[2025-06-09 09:09:23] INFO: checkm analyze -t 60 -x fa /project/60006/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/Script/checkm_ms/bacteria.ms /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/BIN4checkm /home/myee/projects/def-sponsor00/myee/thesis/hic/sim/brinkman/HiCPlas/bin/ImputeCC/test_result/tmp/out_checkm_qa/binning_methods/INITIAL_BIN/checkm_bac
-[2025-06-09 09:09:23] INFO: CheckM data: /opt/conda/checkm_data
-[2025-06-09 09:09:23] INFO: [CheckM - analyze] Identifying marker genes in bins.
-[2025-06-09 09:09:23] INFO: Identifying marker genes in 170 bins with 60 threads:
-[2025-06-09 09:18:11] INFO: Saving HMM info to file.
