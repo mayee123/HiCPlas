@@ -28,8 +28,6 @@ process runNfCoreMag {
         --skip_binning \\
         --skip_spades \\
         ${host_args} \\
-        --host_fasta ${workflow.projectDir}/assets/data/GRCh38.primary_assembly.genome.fa \\
-        --host_fasta_bowtie2index ${workflow.projectDir}/assets/data/ \\
         -c ${workflow.projectDir}/conf/custom_mag.config
     """
 }
