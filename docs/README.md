@@ -13,16 +13,28 @@ This pipeline takes as input a samplesheet containing paths to the metagenomic r
 
 ### Parameters
 ```
+--input: path to samplesheet
+--hic_read: path to paired Hi-C reads, should follow pattern similar to "path_to_hic_read/sample_{1,2}.fastq.gz"
+--imputecc:(true or false): Bin using imputeCC instead of MetaCC. Default false 
 --outdir: output folder
--enzyme (optional): Case-sensitive enzyme name. Use multiple times for multiple enzymes 
---hybrid(true or false):Assemble using hybrid reads. Default false
+-enzyme (optional): Case-sensitive enzyme name. Use multiple times for multiple enzymes. Required if using ImputeCC
+--hybrid(true or false):Assemble using hybrid reads. If using hybrid reads, must specify paths to both long and short reads in samplesheet. Default false
+--host_removal(true or false): Use bowtie2 for host removal. Default false
+--host_fasta: path to fasta file of host genome if doing host removal
+--host_fasta_bowtie2index: bowtie2 index of host genome if doing host removal
+--kraken_db: path to kraken2 database. Required if not skipping kraken2
+--skip_kraken: skip bin taxonomic classification using kraken2. Default false
+--skip_qc3c: skip Hi-C alignment QC using qc3C. Default false
+--skip_hic_trim: skip Hi-C read trimming. Default false
+--skip_assembly: skip assembly of shotgun reads. Requires supplying path of assembled contigs and a samplesheet which can be blank. Default false
+--assembled_contigs: path to assembled contigs if skipping assembly
 ```
 
 ### Example Usage
 
 
 ```sh
-nextflow run main.nf -profile singularity -c custom.config --input path_to_samplesheet.csv --outdir HiCPlas_results --hic_read "path_to_hic_read/sample_{1,2}.fastq.gz
+nextflow run main.nf -profile singularity -c custom.config --input path_to_samplesheet.csv --outdir HiCPlas_results --hic_read "path_to_hic_read/sample_{1,2}.fastq.gz"
 ```
 
 ## Credits
