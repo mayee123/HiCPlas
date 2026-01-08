@@ -9,7 +9,7 @@ This pipeline requires both metagenomic and Hi-C reads from the same sample. It 
 ## Usage
 
 #### Input
-This pipeline takes as input a samplesheet containing paths to the metagenomic reads. This samplesheet is the same as one would include for [nf-core/MAG](https://nf-co.re/mag/2.5.4/docs/usage/) and include these columns: "sample,group,short_reads_1,short_reads_2,long_reads". Paths to short_reads_2 and long_reads are optional. Additionally, a path to the paired Hi-C reads must be specified under the --hic_read flag. 
+This pipeline takes as input a samplesheet containing paths to the metagenomic reads. This samplesheet is the same as one would include for [nf-core/MAG](https://nf-co.re/mag/2.5.4/docs/usage/) and include these columns: "sample,group,short_reads_1,short_reads_2,long_reads". Paths to short_reads_2 and long_reads are optional. Additionally, a path to the paired Hi-C reads must be specified under the --hic_read flag and an output directory must be supplied under the --outdir flag. The path to a kraken database must be provided using --kraken_db unless it is skipped. 
 
 ### Parameters
 ```
@@ -17,7 +17,7 @@ This pipeline takes as input a samplesheet containing paths to the metagenomic r
 --hic_read: path to paired Hi-C reads, should follow pattern similar to "path_to_hic_read/sample_{1,2}.fastq.gz"
 --imputecc:(true or false): Bin using imputeCC instead of MetaCC. Default false 
 --outdir: output folder
--enzyme (optional): Case-sensitive enzyme name. Use multiple times for multiple enzymes. Required if using ImputeCC
+--enzyme (optional): Case-sensitive enzyme name. Use multiple times for multiple enzymes. Required if using ImputeCC
 --hybrid(true or false):Assemble using hybrid reads. If using hybrid reads, must specify paths to both long and short reads in samplesheet. Default false
 --host_removal(true or false): Use bowtie2 for host removal. Default false
 --host_fasta: path to fasta file of host genome if doing host removal
@@ -34,8 +34,9 @@ This pipeline takes as input a samplesheet containing paths to the metagenomic r
 
 
 ```sh
-nextflow run main.nf -profile singularity -c custom.config --input path_to_samplesheet.csv --outdir HiCPlas_results --hic_read "path_to_hic_read/sample_{1,2}.fastq.gz"
+nextflow run main.nf -profile singularity --input path_to_samplesheet.csv --outdir HiCPlas_results --hic_read "path_to_hic_read/sample_{1,2}.fastq.gz --kraken_db path_to_kraken_db"
 ```
+In this case, depending on whether short read or hybrid reads are provided in the samplesheet, HiCPlas will quality control the reads and then assemble using MEGAHIT or MetaSPAdes. By default, host removal of both the Hi-C reads and shotgun reads will not be performed. The assembled contigs will then be aligned to the trimmed Hi-C reads and then binned by MetaCC by default. It is recommended to provide the enzyme using the --enzyme flag. 
 
 ## Credits
 
@@ -52,7 +53,7 @@ For further information or help, don't hesitate to get in touch on the [Slack `#
 
 ## Citations
 
-An extensive list of references for the tools used by the pipeline can be found in the [`CITATIONS.md`](CITATIONS.md) file.
+An extensive list of references for the tools used by the pipeline can be found in the [`CITATIONS.md`](../CITATIONS.md) file.
 
 You can cite the `nf-core` publication as follows:
 
